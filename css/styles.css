@@ -2,6 +2,13 @@
     display: flex;
 }
 
+.logo{
+    color: #fff222;
+    font-size: 28px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 .container{
     max-width: 56rem;
     width: 100%;
@@ -13,4 +20,8 @@
 
 .container2{
     text-align: center;
+}
+
+.bild{
+    
 }
