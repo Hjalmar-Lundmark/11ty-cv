@@ -1,12 +1,18 @@
 .record_header{
     display: flex;
+    background-color: #fff0224f;
+    
 }
 
 .logo{
     color: #fff222;
-    font-size: 28px;
+    font-size: 26px;
+    height: 0.2rem;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
+    font-family: marvin,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container{
@@ -18,10 +24,27 @@
     margin-left: auto;
 }
 
+.bild{
+    display: flex;
+}
+
+h1{
+    height: 1rem;
+}
+
+h2{
+    height: 0.75rem;
+}
+
+h4{
+    line-height: 0.1rem;
+}
+
+h6{
+    height: 0.01rem;
+}
+
 .container2{
     text-align: center;
 }
 
-.bild{
-    
-}

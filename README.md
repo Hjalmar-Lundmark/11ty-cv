@@ -8,6 +8,10 @@ Kvar att göra:
 2. Font
 3. Navigation???
 
-28/10: 
+28/10: Jag har fixat bild, font och mer CSS. 
+Jag känner mig ganska klar men saker jag kan förbättra/lägga till nu är: 
+1. Färg
+2. Bilden
+3. kanske lägga sektionerna bredvid varandra?
 
 
