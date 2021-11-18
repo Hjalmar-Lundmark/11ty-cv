@@ -1,6 +1,6 @@
 Planering 
 
-14/10: Jag har skissat på papper och i Figma. 
+14/10: Jag har skissat på papper och i Figma. https://www.figma.com/file/TBBCOZivh5rPsHEvnJq4zk/CV-skiss?node-id=0%3A1 
 
 21/10: Märkt upp texten, gjort lite css och lagt in logan. 
 Kvar att göra:
