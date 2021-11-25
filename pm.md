@@ -10,8 +10,7 @@ Uppgiften var att göra en hemsida för ett cv man hade skrivit om en fiktionel 
 
 ## Bakgrund
 
-Jag hade redan gjort cv:et på engelskan så det första jag gjorde här på wu1 var att skissa några prototyper på papper och sedan i Figma. När det var klart var det dags att märka up texten, lägga till bilder och koda. När layouten var klar i html så var det dags att göra den snyggare genom CSS. 
-Loggan till cv:et gjordes i Adobe Illustrator på Digitalt skapande. 
+Jag hade redan gjort cv:et på engelskan och loggan i Adobe Illustator på digitalt skapande så det första jag gjorde här på wu1 var att skissa några prototyper på papper och sedan i Figma. När det var klart var det dags att märka up texten, lägga till bilder och koda. När layouten var klar i html så var det dags att göra den snyggare genom CSS. 
 
 
 
