@@ -23,19 +23,22 @@ Babysitter, employed by Scrooge McDuck, Duckburg.
 
 ### 1942-1944
 Sailor, employed by US Navy, Duckburg. 
-* Map reading and planning out a route.
+* Map reading and navigation.
 * Operating different types of ships.
 * In-depth knowledge of different vessels.
 
 ## Contact info
 Phone: 123-456 78 90
+
 Email: donald.duck@email.com
-Education
-US Army and Navy
+
+Education: US Army and Navy
 
 ## Skills
 Experienced caretaker
+
 Effective in high pressure situations
+
 Professional sailor and navigator.
 
 ## Languages

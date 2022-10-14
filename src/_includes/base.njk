@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="/sass/style.scss">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hac5drd.css">
 </head>
 <body>
     <nav>
         {% include "header.njk" %}
     </nav>
-    <main>
+    <main class="container">
         <div>
             {{ content | safe }}
         </div>
@@ -19,7 +20,7 @@
             {% include "bild.njk" %}
         </div>
     </main>
-    <footer>
+    <footer class="container">
         <h6>Content owned by <a href="https://disney.se/">@Disney</a> <br>
         This has been made as an assignment in school, so no copyright pls :(</h6>        
     </footer>
