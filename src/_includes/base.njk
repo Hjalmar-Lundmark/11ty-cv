@@ -14,10 +14,10 @@
     </nav>
     <main class="container">
         <div>
-            {{ content | safe }}
+            {% include "bild.njk" %}
         </div>
         <div>
-            {% include "bild.njk" %}
+            {{ content | safe }}
         </div>
     </main>
     <footer class="container">
