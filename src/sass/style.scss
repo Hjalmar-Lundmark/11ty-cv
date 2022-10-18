@@ -11,12 +11,23 @@ header {
     gap: 1rem;
 }
 
+.header2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    @media (max-width: 420px) {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
 .container {
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
 }
 
-header > h1 {
+header > * > h1 {
     color: #fff222;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
@@ -26,17 +37,58 @@ header > h1 {
     font-size: xx-large;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    &__button {
+        background-color: transparent;
+        border: none;
+
+        @media (min-width: 599px) {
+            display: none;
+        }
+    }
+
+    &__collapse { 
+        > ul { 
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        }
+
+        @media (max-width: 599px) {
+            display: none;
+        }
+
+        &--show {
+            display: block;
+            width: 100%;
+
+            > ul {
+                flex-direction: column;
+                padding: 0;
+            }
+        }
+    }
+}
+
 h2 {
     margin-top: 1rem;
 }
 
 ul {
     list-style: circle;
+
+    > * > a {
+        color: #fff222;
+    }
 }
 
 main {
     display: flex;
-    flex-direction: row-reverse;
 
 
     > * > h1 {
@@ -46,7 +98,7 @@ main {
 
 @media (max-width: 600px) {
     main {
-        display: block;
+        flex-direction: column-reverse;
     }
 }
 
@@ -57,4 +109,8 @@ figure {
 
 footer {
     text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
 }

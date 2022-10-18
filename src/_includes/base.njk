@@ -7,6 +7,7 @@
     <title>CV</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/hac5drd.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <nav>
@@ -14,15 +15,16 @@
     </nav>
     <main class="container">
         <div>
-            {% include "bild.njk" %}
+            {{ content | safe }}
         </div>
         <div>
-            {{ content | safe }}
+            {% include "bild.njk" %}
         </div>
     </main>
     <footer class="container">
         <h6>Content owned by <a href="https://disney.se/">@Disney</a> <br>
         This has been made as an assignment in school, so no copyright pls :(</h6>        
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 </html>
